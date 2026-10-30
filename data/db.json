@@ -1,0 +1,115 @@
+{
+  "users": {
+    "usr_gov_officer_demo": {
+      "userId": "usr_gov_officer_demo",
+      "name": "Dr. Vikram Sethi",
+      "email": "v.sethi@delhi.gov.in",
+      "passwordHash": "2a5788e9fe772ff28a3a71e0c75f2a8e8d2a5f01a29cee024bb455903899af65",
+      "createdAt": "2026-10-30T11:14:11.843Z",
+      "accountStatus": "active",
+      "preferences": {
+        "notifications": true,
+        "strictness": 85,
+        "autoReject": false
+      },
+      "role": "government",
+      "organization": "State Public Services & e-District Directorate"
+    },
+    "usr_d0f5a19d-8f5d-44fb-ad1f-4d387cbc4ace": {
+      "name": "Test Officer",
+      "email": "officer@test.gov.in",
+      "passwordHash": "70a1451b9e5d41ca8d9b6c69cfefd0fd4aac542e3c4f3070d41abed34db5695b",
+      "role": "government",
+      "organization": "Institutional Verification Cell",
+      "preferences": {
+        "notifications": true,
+        "strictness": 85,
+        "autoReject": false
+      },
+      "userId": "usr_d0f5a19d-8f5d-44fb-ad1f-4d387cbc4ace",
+      "createdAt": "2026-10-30T11:14:22.954Z",
+      "accountStatus": "active"
+    }
+  },
+  "documents": {},
+  "verificationResults": {},
+  "verificationHistory": {},
+  "referenceRecords": {
+    "REF-GOV-AADHAAR-01": {
+      "referenceId": "REF-GOV-AADHAAR-01",
+      "documentType": "Aadhaar Card",
+      "referenceNumber": "XXXX-XXXX-4891",
+      "referenceInformation": {
+        "Cardholder Name": "Rajesh Kumar Sharma",
+        "Date of Birth": "14/08/1998",
+        "Gender": "Male",
+        "Address": "Sector 14, Gurugram, Haryana - 122001",
+        "Digital Signature Status": "Valid"
+      },
+      "issuingAuthority": "Unique Identification Authority of India (UIDAI Sandbox)",
+      "recordStatus": "Active",
+      "description": "Authorized sample reference record for UIDAI e-KYC validation demo"
+    },
+    "REF-GOV-PAN-01": {
+      "referenceId": "REF-GOV-PAN-01",
+      "documentType": "PAN Card",
+      "referenceNumber": "ABCPV8921K",
+      "referenceInformation": {
+        "Permanent Account Number": "ABCPV8921K",
+        "Cardholder Name": "Amit Verma",
+        "Father's Name": "Ramesh Chandra Verma",
+        "Date of Birth": "05/11/1990",
+        "Status": "Valid & Linked"
+      },
+      "issuingAuthority": "Income Tax Department (NSDL/Protean Registry Sandbox)",
+      "recordStatus": "Active",
+      "description": "Official tax department master record for individual PAN validation"
+    },
+    "REF-EDU-CBSE-01": {
+      "referenceId": "REF-EDU-CBSE-01",
+      "documentType": "Marksheet",
+      "referenceNumber": "12648931",
+      "referenceInformation": {
+        "Student Name": "Sneha Patel",
+        "Roll Number": "12648931",
+        "School Code": "84012 (Delhi Public School)",
+        "Board": "Central Board of Secondary Education (CBSE)",
+        "Passing Year": "2024",
+        "Total Aggregate": "476 / 500",
+        "Result": "PASS"
+      },
+      "issuingAuthority": "CBSE DigiLocker Registry (Pariksha Sangam Demo Node)",
+      "recordStatus": "Active",
+      "description": "Verified academic depository record for Senior School Certificate"
+    },
+    "REF-EDU-DEGREE-01": {
+      "referenceId": "REF-EDU-DEGREE-01",
+      "documentType": "Degree Certificate",
+      "referenceNumber": "DTU-2025-DS-8802",
+      "referenceInformation": {
+        "Graduate Name": "Vikramaditya Chauhan",
+        "Degree Conferred": "Bachelor of Science (Honours) in Data Science",
+        "University Name": "Delhi Technological University (DTU)",
+        "Year of Graduation": "2025",
+        "Division": "First Class with Distinction"
+      },
+      "issuingAuthority": "National Academic Depository (NAD / DigiLocker Sandbox)",
+      "recordStatus": "Active",
+      "description": "National Academic Depository authenticated degree record"
+    },
+    "REF-GOV-DOMICILE-01": {
+      "referenceId": "REF-GOV-DOMICILE-01",
+      "documentType": "Domicile Certificate",
+      "referenceNumber": "DOM/MH/PUN/2025/084129",
+      "referenceInformation": {
+        "Applicant Name": "Suresh Devendra Rathod",
+        "District": "Pune",
+        "State": "Maharashtra",
+        "Issuing Officer": "Tehsildar & Executive Magistrate, Haveli"
+      },
+      "issuingAuthority": "MahaOnline e-Seva Kendra State Registry Sandbox",
+      "recordStatus": "Active",
+      "description": "State citizen residential verification reference record"
+    }
+  }
+}

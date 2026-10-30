@@ -1,0 +1,6 @@
+{
+  "name": "DocShield AI",
+  "description": "DocShield AI – Intelligent Document Verification & Compliance Platform for government and educational documents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
